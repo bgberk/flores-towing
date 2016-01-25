@@ -1,0 +1,123 @@
+body {
+	font: 400 15px Open-Sans, sans-serif;
+	line-height: 1.8;
+}
+
+h2 {
+	font-size: 24px;
+	color: #303030;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+h4 {
+	font-size: 18px;
+	line-height: 1.375em;
+	color: #303030;
+	font-weight: 400;
+}
+
+.navbar {
+	margin-bottom: 0;
+	background-color: #a0d351;
+	z-index: 9999;
+	border: 0;
+	font-size: 14px !important;
+	line-height: 1.42857143 !important;
+	letter-spacing: 4px;
+	border-radius: 0;
+	font-family: Bitter, serif;
+}
+
+.navbar li a, .navbar .navbar-brand {
+	color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+	color: #a0d351 !important;
+	background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+	color: #fff !important;
+}
+
+.jumbotron {
+	font-family: Bitter, serif;
+	background-color: #a0d351;
+	color: #fff;
+	padding: 100px 25px;
+}
+
+.bg-grey {
+	background-color: #f6f6f6;
+}
+
+.container-fluid {
+	padding: 60px 50px;
+}
+
+.logo {
+	font-size: 200px;
+	color: #a0d351;
+}
+
+.logo-small {
+	width: 32px;
+	margin-top: 30px;
+}
+
+#googleMap {
+	height: 400px;
+	width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+	.col-sm-4, .col-sm-6, .col-sm-8 {
+		text-align: center;
+		margin: 25px 0;
+	}
+
+
+}
+
+footer .glyphicon{
+	font-size: 20px;
+	margin-bottom: 20px;
+	color: #a0d351;
+}
+
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
