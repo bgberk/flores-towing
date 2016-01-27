@@ -19,7 +19,7 @@ h4 {
 
 .navbar {
 	margin-bottom: 0;
-	background-color: #a0d351;
+	background-color: #001f3f;
 	z-index: 9999;
 	border: 0;
 	font-size: 14px !important;
@@ -34,7 +34,7 @@ h4 {
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-	color: #a0d351 !important;
+	color: #001f3f !important;
 	background-color: #fff !important;
 }
 
@@ -45,8 +45,8 @@ h4 {
 
 .jumbotron {
 	font-family: Bitter, serif;
-	background-color: #a0d351;
-	color: #fff;
+	background-color: #001f3f;
+	color: #ff851b;
 	padding: 100px 25px;
 }
 
@@ -60,12 +60,16 @@ h4 {
 
 .logo {
 	font-size: 200px;
-	color: #a0d351;
+	color: #001f3f;
 }
 
 .logo-small {
-	width: 32px;
+	width: 50px;
 	margin-top: 30px;
+}
+
+.fa {
+	color: #ff851b;
 }
 
 #googleMap {
@@ -85,7 +89,7 @@ h4 {
 footer .glyphicon{
 	font-size: 20px;
 	margin-bottom: 20px;
-	color: #a0d351;
+	color: #001f3f;
 }
 
 .slideanim {visibility:hidden;}

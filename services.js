@@ -5,19 +5,30 @@ var mapProp = {
 center:myCenter,
 zoom:8,
 scrollwheel:false,
-draggable:false,
 mapTypeId:google.maps.MapTypeId.ROADMAP
 };
 
 var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 
+var contentString = 
+	'Sorry, we only service <br/> Virginia, not DC or MD!';
+
+var washington = new google.maps.LatLng(38.9047, -77.0164);
+
+var infowindow = new google.maps.InfoWindow({
+	content: contentString,
+	position: washington
+});
+
+infowindow.open(map);
+
 var serviceArea = new google.maps.Circle({
   center:myCenter,
   radius:80500,
-  strokeColor:"#a0d351",
+  strokeColor:"#001f3f",
   strokeOpacity:0.8,
   strokeWeight:2,
-  fillColor:"#a0d351",
+  fillColor:"#001f3f",
   fillOpacity:0.4
 });
 
