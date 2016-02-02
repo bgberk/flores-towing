@@ -25,10 +25,10 @@ infowindow.open(map);
 var serviceArea = new google.maps.Circle({
   center:myCenter,
   radius:80500,
-  strokeColor:"#001f3f",
+  strokeColor:"#96281b",
   strokeOpacity:0.8,
   strokeWeight:2,
-  fillColor:"#001f3f",
+  fillColor:"#96281b",
   fillOpacity:0.4
 });
 

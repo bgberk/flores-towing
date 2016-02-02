@@ -19,9 +19,10 @@ h4 {
 
 .navbar {
 	margin-bottom: 0;
-	background-color: #001f3f;
+	background-color: #96281b;
 	z-index: 9999;
 	border: 0;
+	box-shadow: 0 0 3px 0px #222;
 	font-size: 14px !important;
 	line-height: 1.42857143 !important;
 	letter-spacing: 4px;
@@ -34,7 +35,7 @@ h4 {
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-	color: #001f3f !important;
+	color: #96281b !important;
 	background-color: #fff !important;
 }
 
@@ -45,7 +46,7 @@ h4 {
 
 .jumbotron {
 	font-family: Bitter, serif;
-	background-color: #001f3f;
+	background-color: #96281b;
 	color: #ff851b;
 	padding: 100px 25px;
 }
@@ -60,7 +61,7 @@ h4 {
 
 .logo {
 	font-size: 200px;
-	color: #001f3f;
+	color: #96281b;
 }
 
 .logo-small {
@@ -89,7 +90,7 @@ h4 {
 footer .glyphicon{
 	font-size: 20px;
 	margin-bottom: 20px;
-	color: #001f3f;
+	color: #96281b;
 }
 
 .slideanim {visibility:hidden;}
